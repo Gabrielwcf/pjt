@@ -1,0 +1,56 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('céu.jpg');
+    background-size: cover;          /* Faz a imagem cobrir toda a área da página */
+    background-repeat: no-repeat;    /* Impede que a imagem se repita */
+    color: #333;
+}
+header {
+    background-color: rgba(197, 22, 22, 0.8); /* Fundo semitransparente */
+    color: #13b444;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: #12b82e;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente para melhor leitura */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+.galeria img {
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+#modal img {
+    max-width: 80%;
+}
+#modalTexto {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

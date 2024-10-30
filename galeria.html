@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Arte</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Obras da Arte Renascentista</h1>
+    
+        <div class="galeria">
+            <img src="Renascentista.jpg" alt="Arte 1" onclick="ampliarImagem(this)">
+            <h2>Nascimento de Vênus </h2>
+            <p>é uma pintura do artista renascentista Sandro Botticelli (1445-1510) que retrata o nascimento da deusa Vênus. É considerada uma das obras mais famosas e importantes do Renascimento italiano e está exposta na Galleria degli Uffizi, em Florença, na Itália</p>
+            <img src="27.jpg" alt="Arte 2" onclick="ampliarImagem(this)">
+            <h2>Escola de Atenas</h2>
+            <p>é uma pintura do renascentista italiano Rafael Sanzio, considerada uma das obras mais famosas do período. A obra foi realizada entre 1509 e 1511, e está localizada na Stanza della Segnatura, no Vaticano. </p>
+            <img src="adão.jpg" alt="Arte 3" onclick="ampliarImagem(this)">
+            <h2>Toque de Adão</h2>
+            <p>é um afresco que se encontra no teto da Capela Sistina e retrata o momento em que Deus dá vida a Adão. A obra é considerada uma das maiores joias da arte ocidental e é conhecida pelo quase toque entre as mãos de Deus e Adão, que simboliza a transmissão da vida e da alma humana. </p>
+
+        </div>
+    
+    </main>
+    <div id="modal" onclick="fecharModal()">
+        <img id="modalImg" alt="Imagem Ampliada">
+    </div>
+</body>
+</html>
