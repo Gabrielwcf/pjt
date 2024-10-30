@@ -1,5 +1,5 @@
 // Array com caminhos das imagens de fundo
-const imagensDeFundo = ["27.jpg","ajs.jpg", 'Renascentista.jpg'];
+const imagensDeFundo = ["img/27.jpg","img/ajs.jpg", 'img/Renascentista.jpg'];
 let indiceImagemAtual = 10;
 
 // Função para alternar entre imagens de fundo
